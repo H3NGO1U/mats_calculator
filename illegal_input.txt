@@ -1,0 +1,23 @@
+   ,   read_mat    MAT_A   , 3
+read_mat	 
+read_mat mat_a, 2
+read_mat MAT_A   ,    3      ,1       5,       1    ,   3  ,       1.8888,        3 ,      abs, 5 ,3
+print_mat MAT_A  , MAT_B
+print_mat,MAT_A
+add_mat   MAT_A   ,   MAT_B 
+add_mat   MAT_A     ,  MAT_B   ,
+sub_mat    MAT_D    ,    MAT_A   ,   MAT_F    ,
+mul_mat   ,   MAT_A    ,  MAT_B  , MAT_C
+read_mat   MAT_D   , 3  ,5,5,5,55,5,5,   ,   4
+mul_scalar   MAT_A  ,  a,   MAT_B
+mul_scalar MAT_A , MAT_B , 6
+trans_mat MAT_A         MAT_D
+TRANS_MAT  MAT_A   ,   MAT_B
+trans_mat  MAT_G   ,  MAT_A
+stop please
+stop,
+add_mat    MAT_A  MAT_B
+trans_mat
+trans_mat  MAT_A  ,  MAT_B  ,  MAT_C
+read_mat MAT_E  , 4,4,4,4,4,44,4,4,44,4,4,4,4,4,4,4,4,4,4,4,4,0,-9, .4, 2, 1,1,1,a,2
+fun

@@ -1,0 +1,16 @@
+read_mat MAT_B	,1,1,1,1,2,2,2,2,-1,1,1,1,2,2,2,2
+trans_mat MAT_B , MAT_A
+read_mat MAT_E, .88
+read_mat           MAT_F             ,    2            ,          2
+sub_mat    MAT_F  	,                                 MAT_B    ,     MAT_C
+print_mat   MAT_A
+			
+
+	read_mat            MAT_D         , .1,1,1.,1,1,1,1,1,11,1,1,1,1,11,1,11,1,11,1,1,1,11,11,1,1,11,11,1,11,1,11,111,1111,1,1,1,1,1,1,11,1,11,1,1
+		read_mat    MAT_E    ,1   ,2          , 0    ,       2,            5  , 0     ,   0  , 1
+mul_mat MAT_D , MAT_E        , MAT_D 
+
+mul_scalar    MAT_E   ,   -0.5   , MAT_C
+add_mat     MAT_A   ,    MAT_A    , MAT_A
+stop
+	
